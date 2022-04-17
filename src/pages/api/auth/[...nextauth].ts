@@ -45,7 +45,7 @@ export default NextAuth({
 
                 return true;
             } catch (error) {
-                throw new Error(error);
+                console.log(error);
             }
         },
     },
